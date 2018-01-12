@@ -7,6 +7,18 @@ def countLets(s):
       count += 1
   return count
 
+def cosmicFour(num):
+  if num==4:
+    print("and 4 is cosmic")
+    return None
+  s = eng.number_to_words(num)
+  print(s)
+  next = countLets(s)
+  print(str(num) + " goes to " + str(next))
+  return cosmicFour(next)
+  
 eng = inflect.engine()
-print(eng.number_to_words(99))
-print(countLets(eng.number_to_words(99)))
+##print(eng.number_to_words(99))
+##print(countLets(eng.number_to_words(99)))
+
+cosmicFour(135)
