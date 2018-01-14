@@ -42,3 +42,8 @@ _(click charts below for interactive versions)_
 
 ### Numbers from 0 to 10000
 [![Chart 2](chart3.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwPpcpuZXmU4O2UB8aWidqYp2kwAxdC1AEnqzMDTWGGSGKwOAHZdHX4D-G8Wc8wd7iEhYemALRpAP/pubchart?oid=1275451316&format=interactive)
+
+### Letter-count vs. Numerical Value
+[![Chart 1a](chart1a.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwPpcpuZXmU4O2UB8aWidqYp2kwAxdC1AEnqzMDTWGGSGKwOAHZdHX4D-G8Wc8wd7iEhYemALRpAP/pubchart?oid=722479629&format=interactive)
+The letter-count increases significantly every time a new decimal place is reach, since an additional "hundred", "thousand", etc. must be added to the number's word form. This increase is no more than twenty letters for every power of 10 which is reached. Thus, the letter-count increases roughly logarithmically with respect to the numerical value of the numbers, and thus is always less than its numerical value.
+
