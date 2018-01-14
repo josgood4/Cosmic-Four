@@ -24,7 +24,7 @@ If you continue repeating this process, you will always arrive at the number 4.
 4 is "cosmic" because it is the only number which has the same number of letters as its numerical value.
 
 ## Proof
-For all <sup>[citation needed]</sup> numbers greater than 4, the number of letters in their word-form is less than their numerical value. So each iteration gets closer and closer to the number 4.  
+For all <sup>[well probably, see below]</sup> numbers greater than 4, the number of letters in their word-form is less than their numerical value. So each iteration gets closer and closer to the number 4.  
 A number can't have a negative number of letters (nor zero letters), so this means that the process produces smaller and smaller positive integers until it eventually produces either a 1, 2, 3, or 4, all of which lead back to 4:  
  - 1 -> 3 -> 5 -> 4
  - 2 -> 3 -> 5 -> 4
