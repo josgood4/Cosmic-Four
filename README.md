@@ -24,7 +24,7 @@ If you continue repeating this process, you will always arrive at the number 4.
 4 is "cosmic" because it is the only number which has the same number of letters as its numerical value.
 
 ## Main Proof
-For all <sup>[well probably, see below proof]</sup> numbers greater than 4, the number of letters in their word-form is less than their numerical value. So each iteration gets closer and closer to the number 4.  
+For all <sup>[well probably, see below lemma]</sup> numbers greater than 4, the number of letters in their word-form is less than their numerical value. So each iteration gets closer and closer to the number 4.  
 A number can't have a negative number of letters (nor zero letters), so this means that the process produces smaller and smaller positive integers until it eventually produces either a 1, 2, 3, or 4, all of which lead back to 4:  
  - 1 -> 3 -> 5 -> 4
  - 2 -> 3 -> 5 -> 4
@@ -34,7 +34,7 @@ Other special cases:
  - 0 -> 4
  - negative numbers -> some positive number -> ... (as shown above) -> 4
  
- ## Proof: Letter-Count < Numerical Value 
+## Lemma: Letter-Count < Numerical Value 
 (for n > 4)  
 ### Letter-count vs. Numerical Value
 [![Chart 1a](chart1a.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwPpcpuZXmU4O2UB8aWidqYp2kwAxdC1AEnqzMDTWGGSGKwOAHZdHX4D-G8Wc8wd7iEhYemALRpAP/pubchart?oid=722479629&format=interactive)  
