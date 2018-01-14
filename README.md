@@ -23,8 +23,8 @@ If you continue repeating this process, you will always arrive at the number 4.
 
 4 is "cosmic" because it is the only number which has the same number of letters as its numerical value.
 
-## Proof
-For all <sup>[well probably, see the last graph of the page]</sup> numbers greater than 4, the number of letters in their word-form is less than their numerical value. So each iteration gets closer and closer to the number 4.  
+## Main Proof
+For all <sup>[well probably, see below proof]</sup> numbers greater than 4, the number of letters in their word-form is less than their numerical value. So each iteration gets closer and closer to the number 4.  
 A number can't have a negative number of letters (nor zero letters), so this means that the process produces smaller and smaller positive integers until it eventually produces either a 1, 2, 3, or 4, all of which lead back to 4:  
  - 1 -> 3 -> 5 -> 4
  - 2 -> 3 -> 5 -> 4
@@ -43,7 +43,7 @@ _(click charts below for interactive versions)_
 ### Numbers from 0 to 10000
 [![Chart 2](chart3.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwPpcpuZXmU4O2UB8aWidqYp2kwAxdC1AEnqzMDTWGGSGKwOAHZdHX4D-G8Wc8wd7iEhYemALRpAP/pubchart?oid=1275451316&format=interactive)
 
-## Proof Letter-Count < Numerical Value 
+## Proof: Letter-Count < Numerical Value 
 (for n > 4)  
 ### Letter-count vs. Numerical Value
 [![Chart 1a](chart1a.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQUwPpcpuZXmU4O2UB8aWidqYp2kwAxdC1AEnqzMDTWGGSGKwOAHZdHX4D-G8Wc8wd7iEhYemALRpAP/pubchart?oid=722479629&format=interactive)  
