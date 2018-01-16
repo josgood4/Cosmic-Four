@@ -25,15 +25,15 @@ If you continue repeating this process, you will always arrive at the number 4.
 
 ## Main Proof
 First, to show this works with all positive numbers:
-### Base Case: 1<=n<=4
+### Base Case: `1<=n<=4`
 Each of these numbers leads back to 4:  
  - 1 -> 3 -> 5 -> 4
  - 2 -> 3 -> 5 -> 4
  - 3 -> 5 -> 4
  - 4 -> 4 -> ...  
 ### Inductive Step:  
-Assume that n>4 and for all 0<i<n, i will lead back to 4. Consider n+1.  
-For all n>4, the number of letters in the word-form of that number is less than the numerical value of the number.<sup>[by the lemma below]</sup> n+1 will thus lead to a smaller (positive) number, and, by induction, one that also leads back to 4.  
+Assume that `n>4` and for all `0<i<n`, `i` will lead back to 4. Consider `n+1`.  
+For all `n>4`, the number of letters in the word-form of that number is less than the numerical value of the number.<sup>[by the lemma below]</sup> `n+1` will thus lead to a smaller (positive) number, and, by induction, one that also leads back to 4.  
   
 To put it in simpler terms, each iteration gets closer and closer to the number 4 (by shrinking the number that iteration started with). A number can't have a negative number of letters (nor zero letters), so this means that the process produces smaller and smaller positive integers until it eventually produces either a 1, 2, 3, or 4, all of which lead back to 4, as shown above.  
   
