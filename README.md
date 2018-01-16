@@ -24,13 +24,20 @@ If you continue repeating this process, you will always arrive at the number 4.
 4 is "cosmic" because it is the only number which has the same number of letters as its numerical value.
 
 ## Main Proof
-For all <sup>[well probably, see below lemma]</sup> integers greater than 4, the number of letters in their word-form is less than their numerical value. So each iteration gets closer and closer to the number 4.  
-A number can't have a negative number of letters (nor zero letters), so this means that the process produces smaller and smaller positive integers until it eventually produces either a 1, 2, 3, or 4, all of which lead back to 4:  
+First, to show this works with all positive numbers:
+### Base Case: 1<=n<=4
+Each of these numbers leads back to 4:  
  - 1 -> 3 -> 5 -> 4
  - 2 -> 3 -> 5 -> 4
  - 3 -> 5 -> 4
  - 4 -> 4 -> ...  
-Other special cases:  
+### Inductive Step:  
+Assume that for all 0<i<n, i will lead back to 4. Consider n+1.  
+For all n>4, the number of letters in the word-form of that number is less than the numerical value of the number.<sup>[by the lemma below]</sup> n+1 will thus lead to a smaller (positive) number, and, by induction, one that also leads back to 4.  
+  
+To put it in simpler terms, each iteration gets closer and closer to the number 4. A number can't have a negative number of letters (nor zero letters), so this means that the process produces smaller and smaller positive integers until it eventually produces either a 1, 2, 3, or 4, all of which lead back to 4, as shown above.  
+  
+As for other special cases:
  - 0 -> 4
  - negative numbers -> some positive number -> ... (as shown above) -> 4
  
